@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7FDEE1819D8ED8600D00A83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDEE1719D8ED8600D00A83 /* AppDelegate.swift */; };
+		C7FDEE1A19D8ED8600D00A83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDEE1919D8ED8600D00A83 /* ViewController.swift */; };
+		C7FDEE1D19D8ED8600D00A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FDEE1B19D8ED8600D00A83 /* Main.storyboard */; };
+		C7FDEE1F19D8ED8600D00A83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FDEE1E19D8ED8600D00A83 /* Images.xcassets */; };
+		C7FDEE2B19D8ED8600D00A83 /* Dolar_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDEE2A19D8ED8600D00A83 /* Dolar_BlueTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7FDEE2519D8ED8600D00A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7FDEE0A19D8ED8600D00A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7FDEE1119D8ED8600D00A83;
+			remoteInfo = "Dolar Blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7FDEE1219D8ED8600D00A83 /* Dolar Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dolar Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FDEE1619D8ED8600D00A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FDEE1719D8ED8600D00A83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7FDEE1919D8ED8600D00A83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7FDEE1C19D8ED8600D00A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7FDEE1E19D8ED8600D00A83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7FDEE2419D8ED8600D00A83 /* Dolar BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dolar BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7FDEE2919D8ED8600D00A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FDEE2A19D8ED8600D00A83 /* Dolar_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolar_BlueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7FDEE0F19D8ED8600D00A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FDEE2119D8ED8600D00A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7FDEE0919D8ED8600D00A83 = {
+			isa = PBXGroup;
+			children = (
+				C7FDEE1419D8ED8600D00A83 /* Dolar Blue */,
+				C7FDEE2719D8ED8600D00A83 /* Dolar BlueTests */,
+				C7FDEE1319D8ED8600D00A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7FDEE1319D8ED8600D00A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDEE1219D8ED8600D00A83 /* Dolar Blue.app */,
+				C7FDEE2419D8ED8600D00A83 /* Dolar BlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7FDEE1419D8ED8600D00A83 /* Dolar Blue */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDEE1719D8ED8600D00A83 /* AppDelegate.swift */,
+				C7FDEE1919D8ED8600D00A83 /* ViewController.swift */,
+				C7FDEE1B19D8ED8600D00A83 /* Main.storyboard */,
+				C7FDEE1E19D8ED8600D00A83 /* Images.xcassets */,
+				C7FDEE1519D8ED8600D00A83 /* Supporting Files */,
+			);
+			path = "Dolar Blue";
+			sourceTree = "<group>";
+		};
+		C7FDEE1519D8ED8600D00A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDEE1619D8ED8600D00A83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7FDEE2719D8ED8600D00A83 /* Dolar BlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDEE2A19D8ED8600D00A83 /* Dolar_BlueTests.swift */,
+				C7FDEE2819D8ED8600D00A83 /* Supporting Files */,
+			);
+			path = "Dolar BlueTests";
+			sourceTree = "<group>";
+		};
+		C7FDEE2819D8ED8600D00A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FDEE2919D8ED8600D00A83 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7FDEE1119D8ED8600D00A83 /* Dolar Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7FDEE2E19D8ED8600D00A83 /* Build configuration list for PBXNativeTarget "Dolar Blue" */;
+			buildPhases = (
+				C7FDEE0E19D8ED8600D00A83 /* Sources */,
+				C7FDEE0F19D8ED8600D00A83 /* Frameworks */,
+				C7FDEE1019D8ED8600D00A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dolar Blue";
+			productName = "Dolar Blue";
+			productReference = C7FDEE1219D8ED8600D00A83 /* Dolar Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7FDEE2319D8ED8600D00A83 /* Dolar BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7FDEE3119D8ED8600D00A83 /* Build configuration list for PBXNativeTarget "Dolar BlueTests" */;
+			buildPhases = (
+				C7FDEE2019D8ED8600D00A83 /* Sources */,
+				C7FDEE2119D8ED8600D00A83 /* Frameworks */,
+				C7FDEE2219D8ED8600D00A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7FDEE2619D8ED8600D00A83 /* PBXTargetDependency */,
+			);
+			name = "Dolar BlueTests";
+			productName = "Dolar BlueTests";
+			productReference = C7FDEE2419D8ED8600D00A83 /* Dolar BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7FDEE0A19D8ED8600D00A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Leandro Ostera";
+				TargetAttributes = {
+					C7FDEE1119D8ED8600D00A83 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					C7FDEE2319D8ED8600D00A83 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = C7FDEE1119D8ED8600D00A83;
+					};
+				};
+			};
+			buildConfigurationList = C7FDEE0D19D8ED8600D00A83 /* Build configuration list for PBXProject "Dolar Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7FDEE0919D8ED8600D00A83;
+			productRefGroup = C7FDEE1319D8ED8600D00A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7FDEE1119D8ED8600D00A83 /* Dolar Blue */,
+				C7FDEE2319D8ED8600D00A83 /* Dolar BlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7FDEE1019D8ED8600D00A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FDEE1D19D8ED8600D00A83 /* Main.storyboard in Resources */,
+				C7FDEE1F19D8ED8600D00A83 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FDEE2219D8ED8600D00A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7FDEE0E19D8ED8600D00A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FDEE1A19D8ED8600D00A83 /* ViewController.swift in Sources */,
+				C7FDEE1819D8ED8600D00A83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7FDEE2019D8ED8600D00A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7FDEE2B19D8ED8600D00A83 /* Dolar_BlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7FDEE2619D8ED8600D00A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7FDEE1119D8ED8600D00A83 /* Dolar Blue */;
+			targetProxy = C7FDEE2519D8ED8600D00A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7FDEE1B19D8ED8600D00A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7FDEE1C19D8ED8600D00A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7FDEE2C19D8ED8600D00A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7FDEE2D19D8ED8600D00A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7FDEE2F19D8ED8600D00A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Dolar Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7FDEE3019D8ED8600D00A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Dolar Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7FDEE3219D8ED8600D00A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dolar BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolar Blue.app/Dolar Blue";
+			};
+			name = Debug;
+		};
+		C7FDEE3319D8ED8600D00A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dolar BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolar Blue.app/Dolar Blue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7FDEE0D19D8ED8600D00A83 /* Build configuration list for PBXProject "Dolar Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FDEE2C19D8ED8600D00A83 /* Debug */,
+				C7FDEE2D19D8ED8600D00A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7FDEE2E19D8ED8600D00A83 /* Build configuration list for PBXNativeTarget "Dolar Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FDEE2F19D8ED8600D00A83 /* Debug */,
+				C7FDEE3019D8ED8600D00A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7FDEE3119D8ED8600D00A83 /* Build configuration list for PBXNativeTarget "Dolar BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7FDEE3219D8ED8600D00A83 /* Debug */,
+				C7FDEE3319D8ED8600D00A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7FDEE0A19D8ED8600D00A83 /* Project object */;
+}
