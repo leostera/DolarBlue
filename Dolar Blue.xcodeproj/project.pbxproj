@@ -12,6 +12,7 @@
 		C7FDEE1D19D8ED8600D00A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FDEE1B19D8ED8600D00A83 /* Main.storyboard */; };
 		C7FDEE1F19D8ED8600D00A83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FDEE1E19D8ED8600D00A83 /* Images.xcassets */; };
 		C7FDEE2B19D8ED8600D00A83 /* Dolar_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FDEE2A19D8ED8600D00A83 /* Dolar_BlueTests.swift */; };
+		C7FDEE3519D9090300D00A83 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FDEE3419D9090300D00A83 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		C7FDEE2419D8ED8600D00A83 /* Dolar BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dolar BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FDEE2919D8ED8600D00A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FDEE2A19D8ED8600D00A83 /* Dolar_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dolar_BlueTests.swift; sourceTree = "<group>"; };
+		C7FDEE3419D9090300D00A83 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				C7FDEE1919D8ED8600D00A83 /* ViewController.swift */,
 				C7FDEE1B19D8ED8600D00A83 /* Main.storyboard */,
 				C7FDEE1E19D8ED8600D00A83 /* Images.xcassets */,
+				C7FDEE3419D9090300D00A83 /* Images-2.xcassets */,
 				C7FDEE1519D8ED8600D00A83 /* Supporting Files */,
 			);
 			path = "Dolar Blue";
@@ -190,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FDEE3519D9090300D00A83 /* Images-2.xcassets in Resources */,
 				C7FDEE1D19D8ED8600D00A83 /* Main.storyboard in Resources */,
 				C7FDEE1F19D8ED8600D00A83 /* Images.xcassets in Resources */,
 			);
@@ -326,24 +330,26 @@
 		C7FDEE2F19D8ED8600D00A83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Dolar Blue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8c7a6015-054e-45fb-b938-f0d0ac393dfc";
 			};
 			name = Debug;
 		};
 		C7FDEE3019D8ED8600D00A83 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Leandro Ostera Villalva (WJK53FHZAN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Leandro Ostera Villalva (WJK53FHZAN)";
 				INFOPLIST_FILE = "Dolar Blue/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8c7a6015-054e-45fb-b938-f0d0ac393dfc";
 			};
 			name = Release;
 		};
