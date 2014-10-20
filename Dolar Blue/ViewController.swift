@@ -801,7 +801,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL(string: "http://www.bluelytics.com.ar/json/last_price")
+        let url = NSURL(string: "http://api.bluelytics.com.ar/json/last_price")
     
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url) {(data, response, error) in
